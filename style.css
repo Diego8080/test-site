@@ -1,0 +1,76 @@
+body {
+    background-image: url(pexels-photo-597330.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    width: 100%;
+    height: 100px;
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 0.5);
+    margin: -20px 0;
+    text-align: center;
+}
+
+#MainMenu {
+
+    position: fixed;
+    top: 50%;
+    left: -20%;
+    transform: rotate(-90deg);
+}
+
+a {
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+
+    padding: 20px;
+    margin: 10px;
+    text-shadow: 0px -1px 0px rgba(23, 30, 30, 0.8);
+    text-decoration: none;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background: rgb(96, 230, 239);
+    background: -moz-linear-gradient(90deg, rgb(96, 230, 239) 30%, rgb(96, 230, 239) 70%);
+    background: -webkit-linear-gradient(90deg, rgb(96, 230, 239) 30%, rgb(96, 230, 239) 70%);
+    background: -o-linear-gradient(90deg, rgb(96, 230, 239) 30%, rgb(96, 230, 239) 70%);
+    background: -ms-linear-gradient(90deg, rgb(96, 230, 239) 30%, rgb(96, 230, 239) 70%);
+    background: linear-gradient(0deg, rgb(96, 230, 239) 30%, rgb(96, 230, 239) 70%);
+    -webkit-box-shadow: 0px 2px 1px rgba(85, 50, 50, 0.75);
+    -moz-box-shadow:    0px 2px 1px rgba(85, 50, 50, 0.75);
+    box-shadow:         0px 2px 1px rgba(85, 50, 50, 0.75);
+
+}
+
+a:active {
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, .05) inset;
+}
+
+.row {
+    margin: 30px;
+    font-family: 'Marck Script', cursive;
+    font-size: 25px;
+    text-align: left;
+    padding: 200px 285px;
+
+
+}
+
+.footer {
+    background-color: azure;
+    font-family: Arial;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 15px;
+    bottom: 10px;
+
+}
